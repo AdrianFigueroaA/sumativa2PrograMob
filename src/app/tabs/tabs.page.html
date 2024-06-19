@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>CinetopiApp</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+
+  <ion-tabs>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab1" href="/tabs/tab1">
+        <ion-icon name="home-outline"></ion-icon>
+        <ion-label>Inicio</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="tab2" href="/tabs/tab2">
+        <ion-icon name="film-outline"></ion-icon>
+        <ion-label>Estrenos</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="tab3" href="/tabs/tab3">
+        <ion-icon name="videocam-outline"></ion-icon>
+        <ion-label>Mis peliculas</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="tab4" href="/tabs/tab3">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <ion-label>Mi perfil</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+
+    <!-- Aquí va el ion-router-outlet para renderizar el contenido de las pestañas -->
+    <!-- <ion-router-outlet></ion-router-outlet> -->
+
+  </ion-tabs>
+</ion-content>
