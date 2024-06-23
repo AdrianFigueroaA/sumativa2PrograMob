@@ -1,11 +1,7 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Películas Guardadas</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
+<ion-content [fullscreen]="true">
   <ion-list>
+    <h1 class="ion-text-center">Películas Guardadas</h1>
+
     <ion-grid>
       <ion-row>
         <ion-col *ngFor="let pelicula of peliculasGuardadas">

@@ -5,6 +5,11 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <div id="container-camera">
+    <img *ngIf="imageSource" src="{{imageSource}}" alt="">
+    <ion-button (click)="takePicture()">Tomar foto de perfil</ion-button>
+  </div>
+
   <ion-list>
     <ion-item-sliding>
       <ion-item>
